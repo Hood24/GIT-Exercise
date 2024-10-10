@@ -5,5 +5,5 @@ showTime();
 
 }, 1000);
 function showTime() {
-	document.getElementById('11 currentTime').innerHTML = new Date().toUTCString();
+	document.getElementById('12 currentTime').innerHTML = new Date().toUTCString();
 }
