@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Персональна сторінка</title>
+</head>
+<body>
+<header> 
+    <h1>Контакти</h1>
+    <nav>
+        <a href="file:///Users/oksana/Documents/QAManual/HW_Hillel/Homework%2021.1/Index.html">Головна</a>
+        <a href="file:///Users/oksana/Documents/QAManual/HW_Hillel/Homework%2021.1/Pages/Contacs.html">Контакти</a>
+        <a href="file:///Users/oksana/Documents/QAManual/HW_Hillel/Homework%2021.1/Pages/Images.html">Галерея</a>
+        </nav>
+</header>
+   <section class="contact-info">
+    <p>Email: tsybulska@gmail.com</p>
+    <p>Телефон: +380671112233</p>
+    <p>Адреса: м.Київ</p>
+    <a href="https://www.linkedin.com/in/oksana-tsybulska-7b288a76">LinkedIn</a>
+</section>
+
+<div class="container">
+    <form action="action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+        <label for="country">Country</label>
+        <select id="country" name="country">
+            <option value="ukraine">Ukraine</option>
+        </select>
+
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+        <input type="submit" value="Submit">
+    </form>
+</div>
+<footer>
+        <p>&copy; 2024 [Oksana Tsybulska]</p>
+    </footer>
+
+</body>
+</html>
